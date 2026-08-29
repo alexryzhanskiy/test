@@ -1,4 +1,4 @@
-# Ball Speed
+# SpeedRadar
 
 An iOS app that films a ball with the back camera and works out how fast it is
 flying, using the known dimensions of the court as its ruler.
@@ -67,7 +67,7 @@ measurement.
 ## Accuracy in practice
 
 Verified against synthetic scenes with exact ground truth (see
-`BallSpeedTests`), for a camera 3.2 m up beside a tennis court:
+`SpeedRadarTests`), for a camera 3.2 m up beside a tennis court:
 
 | Case | Result |
 |---|---|
@@ -94,28 +94,28 @@ What dominates real-world error, in order:
 
 ## Building
 
-Open `BallSpeed.xcodeproj` in Xcode 16 or later and run on a device. The project
-uses file-system-synchronised groups, so files added to `BallSpeed/` are picked
+Open `SpeedRadar.xcodeproj` in Xcode 16 or later and run on a device. The project
+uses file-system-synchronised groups, so files added to `SpeedRadar/` are picked
 up without touching the project file.
 
 - **Deployment target:** iOS 17.0
 - **Device required.** The simulator has no camera; the capture screen will report
   that no usable back camera was found. The test suite runs fine on the simulator
   because every test drives the geometry from synthetic scenes.
-- **Signing:** set your own team on the `BallSpeed` target. The bundle identifier
-  is `com.ballspeed.app`.
+- **Signing:** set your own team on the `SpeedRadar` target. The bundle identifier
+  is `com.speedradar.app`.
 
 Run the tests with `⌘U`, or:
 
 ```sh
-xcodebuild test -project BallSpeed.xcodeproj -scheme BallSpeed \
+xcodebuild test -project SpeedRadar.xcodeproj -scheme SpeedRadar \
   -destination 'platform=iOS Simulator,name=iPhone 16'
 ```
 
 ## Layout
 
 ```
-BallSpeed/
+SpeedRadar/
   App/          App entry point and the tab shell
   Math/         Mat3/Vec3, linear solver, homography, camera intrinsics and pose
   Model/        Court presets, calibration, saved measurements
@@ -123,7 +123,7 @@ BallSpeed/
   Capture/      AVCaptureSession, Vision tracker, asset writer, coordinators
   Storage/      Measurement, calibration and settings persistence
   Views/        Capture, calibration, history, detail and settings screens
-BallSpeedTests/ Synthetic-scene geometry and estimator tests
+SpeedRadarTests/ Synthetic-scene geometry and estimator tests
 ```
 
 The estimators and everything in `Math/` are pure functions over plain values,

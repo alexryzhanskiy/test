@@ -31,7 +31,7 @@ final class CaptureEngine: NSObject {
     private let tracker = BallTracker()
     private let recorder = VideoRecorder()
     private let lock = NSLock()
-    private let logger = Logger(subsystem: "com.ballspeed.app", category: "CaptureEngine")
+    private let logger = Logger(subsystem: "com.speedradar.app", category: "CaptureEngine")
 
     private var calibration: ResolvedCalibration?
     private var options = EstimationOptions.default

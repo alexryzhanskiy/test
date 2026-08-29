@@ -1,7 +1,7 @@
 import CoreGraphics
 import XCTest
 
-@testable import BallSpeed
+@testable import SpeedRadar
 
 final class BallisticSpeedEstimatorTests: XCTestCase {
 

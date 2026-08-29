@@ -8,7 +8,7 @@ final class MeasurementStore: ObservableObject {
     @Published private(set) var measurements: [SpeedMeasurement] = []
 
     private let fileURL: URL
-    private let logger = Logger(subsystem: "com.ballspeed.app", category: "MeasurementStore")
+    private let logger = Logger(subsystem: "com.speedradar.app", category: "MeasurementStore")
 
     init(fileURL: URL? = nil) {
         self.fileURL = fileURL ?? MeasurementStore.defaultFileURL()
@@ -20,7 +20,7 @@ final class MeasurementStore: ObservableObject {
         let base =
             manager.urls(for: .applicationSupportDirectory, in: .userDomainMask).first
             ?? manager.urls(for: .documentDirectory, in: .userDomainMask)[0]
-        let directory = base.appendingPathComponent("BallSpeed", isDirectory: true)
+        let directory = base.appendingPathComponent("SpeedRadar", isDirectory: true)
         if !manager.fileExists(atPath: directory.path) {
             try? manager.createDirectory(at: directory, withIntermediateDirectories: true)
         }
@@ -104,7 +104,7 @@ final class MeasurementStore: ObservableObject {
         }
 
         let url = FileManager.default.temporaryDirectory
-            .appendingPathComponent("ball-speed-export.csv")
+            .appendingPathComponent("speedradar-export.csv")
         try lines.joined(separator: "\n").write(to: url, atomically: true, encoding: .utf8)
         return url
     }

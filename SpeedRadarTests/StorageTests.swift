@@ -1,6 +1,6 @@
 import XCTest
 
-@testable import BallSpeed
+@testable import SpeedRadar
 
 @MainActor
 final class MeasurementStoreTests: XCTestCase {

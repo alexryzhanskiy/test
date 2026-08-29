@@ -11,7 +11,7 @@ final class CalibrationStore: ObservableObject {
     @Published private(set) var calibration: CourtCalibration?
 
     private let fileURL: URL
-    private let logger = Logger(subsystem: "com.ballspeed.app", category: "CalibrationStore")
+    private let logger = Logger(subsystem: "com.speedradar.app", category: "CalibrationStore")
 
     init(fileURL: URL? = nil) {
         self.fileURL = fileURL ?? CalibrationStore.defaultFileURL()

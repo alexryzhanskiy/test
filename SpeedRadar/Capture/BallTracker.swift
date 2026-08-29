@@ -26,7 +26,7 @@ final class BallTracker {
     private var request: VNDetectTrajectoriesRequest?
     private var trajectories: [UUID: TrackedTrajectory] = [:]
     private let lock = NSLock()
-    private let logger = Logger(subsystem: "com.ballspeed.app", category: "BallTracker")
+    private let logger = Logger(subsystem: "com.speedradar.app", category: "BallTracker")
 
     /// Discards all state and starts a fresh take.
     func reset() {

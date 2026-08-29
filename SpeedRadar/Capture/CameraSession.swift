@@ -47,11 +47,11 @@ final class CameraSession: NSObject {
     let session = AVCaptureSession()
     weak var delegate: CameraSessionDelegate?
 
-    private let sessionQueue = DispatchQueue(label: "com.ballspeed.session")
+    private let sessionQueue = DispatchQueue(label: "com.speedradar.session")
     private let outputQueue = DispatchQueue(
-        label: "com.ballspeed.video-output", qos: .userInitiated)
+        label: "com.speedradar.video-output", qos: .userInitiated)
     private let videoOutput = AVCaptureVideoDataOutput()
-    private let logger = Logger(subsystem: "com.ballspeed.app", category: "CameraSession")
+    private let logger = Logger(subsystem: "com.speedradar.app", category: "CameraSession")
 
     private(set) var device: AVCaptureDevice?
     private(set) var configuration: CameraConfiguration?

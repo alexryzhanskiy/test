@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AA0000000000000000000004"
-               BuildableName = "BallSpeed.app"
-               BlueprintName = "BallSpeed"
-               ReferencedContainer = "container:BallSpeed.xcodeproj">
+               BuildableName = "SpeedRadar.app"
+               BlueprintName = "SpeedRadar"
+               ReferencedContainer = "container:SpeedRadar.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AA0000000000000000000005"
-               BuildableName = "BallSpeedTests.xctest"
-               BlueprintName = "BallSpeedTests"
-               ReferencedContainer = "container:BallSpeed.xcodeproj">
+               BuildableName = "SpeedRadarTests.xctest"
+               BlueprintName = "SpeedRadarTests"
+               ReferencedContainer = "container:SpeedRadar.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AA0000000000000000000004"
-            BuildableName = "BallSpeed.app"
-            BlueprintName = "BallSpeed"
-            ReferencedContainer = "container:BallSpeed.xcodeproj">
+            BuildableName = "SpeedRadar.app"
+            BlueprintName = "SpeedRadar"
+            ReferencedContainer = "container:SpeedRadar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AA0000000000000000000004"
-            BuildableName = "BallSpeed.app"
-            BlueprintName = "BallSpeed"
-            ReferencedContainer = "container:BallSpeed.xcodeproj">
+            BuildableName = "SpeedRadar.app"
+            BlueprintName = "SpeedRadar"
+            ReferencedContainer = "container:SpeedRadar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

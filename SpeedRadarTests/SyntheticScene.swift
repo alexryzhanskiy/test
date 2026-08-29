@@ -1,7 +1,7 @@
 import CoreGraphics
 import Foundation
 
-@testable import BallSpeed
+@testable import SpeedRadar
 
 /// A virtual court and camera used to generate exact test data.
 ///

@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct BallSpeedApp: App {
+struct SpeedRadarApp: App {
     @StateObject private var settings: AppSettings
     @StateObject private var measurementStore: MeasurementStore
     @StateObject private var calibrationStore: CalibrationStore

@@ -42,7 +42,7 @@ final class CaptureController: ObservableObject {
     private let settings: AppSettings
     private let measurementStore: MeasurementStore
     private let calibrationStore: CalibrationStore
-    private let logger = Logger(subsystem: "com.ballspeed.app", category: "CaptureController")
+    private let logger = Logger(subsystem: "com.speedradar.app", category: "CaptureController")
 
     private var rotationCoordinator: AVCaptureDevice.RotationCoordinator?
     private var rotationObservation: NSKeyValueObservation?

@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		AA0000000000000000000006 /* BallSpeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallSpeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA0000000000000000000007 /* BallSpeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallSpeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000000000000000000006 /* SpeedRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000000000000000000007 /* SpeedRadarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedRadarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		AA0000000000000000000008 /* BallSpeed */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = BallSpeed; sourceTree = "<group>"; };
-		AA0000000000000000000009 /* BallSpeedTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = BallSpeedTests; sourceTree = "<group>"; };
+		AA0000000000000000000008 /* SpeedRadar */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SpeedRadar; sourceTree = "<group>"; };
+		AA0000000000000000000009 /* SpeedRadarTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SpeedRadarTests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,8 +37,8 @@
 		AA0000000000000000000002 = {
 			isa = PBXGroup;
 			children = (
-				AA0000000000000000000008 /* BallSpeed */,
-				AA0000000000000000000009 /* BallSpeedTests */,
+				AA0000000000000000000008 /* SpeedRadar */,
+				AA0000000000000000000009 /* SpeedRadarTests */,
 				AA0000000000000000000003 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,8 +46,8 @@
 		AA0000000000000000000003 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA0000000000000000000006 /* BallSpeed.app */,
-				AA0000000000000000000007 /* BallSpeedTests.xctest */,
+				AA0000000000000000000006 /* SpeedRadar.app */,
+				AA0000000000000000000007 /* SpeedRadarTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,9 +55,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA0000000000000000000004 /* BallSpeed */ = {
+		AA0000000000000000000004 /* SpeedRadar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA0000000000000000000011 /* Build configuration list for PBXNativeTarget "BallSpeed" */;
+			buildConfigurationList = AA0000000000000000000011 /* Build configuration list for PBXNativeTarget "SpeedRadar" */;
 			buildPhases = (
 				AA000000000000000000000A /* Sources */,
 				AA000000000000000000000B /* Frameworks */,
@@ -68,16 +68,16 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				AA0000000000000000000008 /* BallSpeed */,
+				AA0000000000000000000008 /* SpeedRadar */,
 			);
-			name = BallSpeed;
-			productName = BallSpeed;
-			productReference = AA0000000000000000000006 /* BallSpeed.app */;
+			name = SpeedRadar;
+			productName = SpeedRadar;
+			productReference = AA0000000000000000000006 /* SpeedRadar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AA0000000000000000000005 /* BallSpeedTests */ = {
+		AA0000000000000000000005 /* SpeedRadarTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA0000000000000000000012 /* Build configuration list for PBXNativeTarget "BallSpeedTests" */;
+			buildConfigurationList = AA0000000000000000000012 /* Build configuration list for PBXNativeTarget "SpeedRadarTests" */;
 			buildPhases = (
 				AA000000000000000000000D /* Sources */,
 				AA000000000000000000000E /* Frameworks */,
@@ -89,11 +89,11 @@
 				AA0000000000000000000019 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				AA0000000000000000000009 /* BallSpeedTests */,
+				AA0000000000000000000009 /* SpeedRadarTests */,
 			);
-			name = BallSpeedTests;
-			productName = BallSpeedTests;
-			productReference = AA0000000000000000000007 /* BallSpeedTests.xctest */;
+			name = SpeedRadarTests;
+			productName = SpeedRadarTests;
+			productReference = AA0000000000000000000007 /* SpeedRadarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +115,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AA0000000000000000000010 /* Build configuration list for PBXProject "BallSpeed" */;
+			buildConfigurationList = AA0000000000000000000010 /* Build configuration list for PBXProject "SpeedRadar" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -129,8 +129,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA0000000000000000000004 /* BallSpeed */,
-				AA0000000000000000000005 /* BallSpeedTests */,
+				AA0000000000000000000004 /* SpeedRadar */,
+				AA0000000000000000000005 /* SpeedRadarTests */,
 			);
 		};
 /* End PBXProject section */
@@ -172,7 +172,7 @@
 /* Begin PBXTargetDependency section */
 		AA0000000000000000000019 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA0000000000000000000004 /* BallSpeed */;
+			target = AA0000000000000000000004 /* SpeedRadar */;
 			targetProxy = AA000000000000000000001A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -183,7 +183,7 @@
 			containerPortal = AA0000000000000000000001 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AA0000000000000000000004;
-			remoteInfo = BallSpeed;
+			remoteInfo = SpeedRadar;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -257,8 +257,8 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Ball Speed";
-				INFOPLIST_KEY_NSCameraUsageDescription = "Ball Speed records the ball's flight with the back camera so it can measure how fast the ball is travelling.";
+				INFOPLIST_KEY_CFBundleDisplayName = "SpeedRadar";
+				INFOPLIST_KEY_NSCameraUsageDescription = "SpeedRadar records the ball's flight with the back camera so it can measure how fast the ball is travelling.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save a measured clip to your photo library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -271,7 +271,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ballspeed.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedradar.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -289,8 +289,8 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Ball Speed";
-				INFOPLIST_KEY_NSCameraUsageDescription = "Ball Speed records the ball's flight with the back camera so it can measure how fast the ball is travelling.";
+				INFOPLIST_KEY_CFBundleDisplayName = "SpeedRadar";
+				INFOPLIST_KEY_NSCameraUsageDescription = "SpeedRadar records the ball's flight with the back camera so it can measure how fast the ball is travelling.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save a measured clip to your photo library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -303,7 +303,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ballspeed.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedradar.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,12 +320,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ballspeed.app.tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedradar.app.tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BallSpeed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BallSpeed";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedRadar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeedRadar";
 			};
 			name = Debug;
 		};
@@ -338,19 +338,19 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ballspeed.app.tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedradar.app.tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BallSpeed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BallSpeed";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedRadar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeedRadar";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA0000000000000000000010 /* Build configuration list for PBXProject "BallSpeed" */ = {
+		AA0000000000000000000010 /* Build configuration list for PBXProject "SpeedRadar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA0000000000000000000013 /* Debug */,
@@ -359,7 +359,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA0000000000000000000011 /* Build configuration list for PBXNativeTarget "BallSpeed" */ = {
+		AA0000000000000000000011 /* Build configuration list for PBXNativeTarget "SpeedRadar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA0000000000000000000015 /* Debug */,
@@ -368,7 +368,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA0000000000000000000012 /* Build configuration list for PBXNativeTarget "BallSpeedTests" */ = {
+		AA0000000000000000000012 /* Build configuration list for PBXNativeTarget "SpeedRadarTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA0000000000000000000017 /* Debug */,
